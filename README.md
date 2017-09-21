@@ -1,2 +1,2 @@
-npm install /n
-npm run dev
+<h1>npm install</h1>
+<h1>npm run dev</h1>
