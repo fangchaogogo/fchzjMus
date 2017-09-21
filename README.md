@@ -1,2 +1,2 @@
-# fchzjMus
-a music webApp
+npm install
+npm run dev
