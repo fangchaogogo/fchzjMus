@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0px; border: 0; font-size: 100%; outline: none; }
+html {font-size:100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; overflow-x: hidden; }
+/* always display scrollbars */
+body {
+	 font-family: "Microsoft YaHei New","Microsoft Yahei","微软雅黑","Hiragino Sans GB","冬青黑体","Arial","Helvetica","SimHei","黑体","STXihei","华文细黑",sans-serif;
+	 font-size:12px;
+	 margin: 0 auto;
+	 color: #4b4b4b;
+	 background-color: #fff;
+	 }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul ,li{ list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; }
+input { outline: none; }
+img { border: 0; }
+input[type="text"], input[type="button"], input[type="submit"], input[type="reset"] { -webkit-appearance: none; border-radius: 0; }
+textarea { -webkit-appearance: none; border-radius: 0; }
+::-moz-selection { background: #3399ff; color: #fff; text-shadow: none; }
+::selection { background: #3399ff; color: #fff; text-shadow: none; }
+a { text-decoration: none;color:#333; blr: expression(this.onFocus=this.blur()); cursor: pointer; -webkit-transition: 0.3s; -moz-transition: 0.3s; -o-transition: 0.3s; transition: 0.3s; }
+a:link, a:visited { text-decoration: none; }
+a:active, a:hover { text-decoration: none; }
+.clearfix:before, .clearfix:after { display: table; content: ""; line-height: 0px; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+img{display:block;}
+input,textarea{
+	border:0;
+	background:none;
+	outline:0;
+	resize:none;
+	}
+h1,h2,h3,h4{
+	font-weight:normal;
+	}
+em,i{
+	font-style:normal;
+	}
+p + p, p + .lead {
+    margin-top:0;
+	}
+.clear-fix:after{
+  display:block;
+  content:'';
+  clear:both;
+}
+/** THEME
+===================================*/
